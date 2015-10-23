@@ -4,8 +4,16 @@
   "description": "Bundler of EaselJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node .",
+    "debug": "nodemon ."
   },
   "author": "George Chung <Gerhut@GMail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "connect": "^3.4.0",
+    "grunt": "^0.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.7.3"
+  }
 }
