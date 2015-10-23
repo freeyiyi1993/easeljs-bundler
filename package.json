@@ -1,0 +1,11 @@
+{
+  "name": "easeljs-bundler",
+  "version": "0.0.0",
+  "description": "Bundler of EaselJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "George Chung <Gerhut@GMail.com>",
+  "license": "MIT"
+}
