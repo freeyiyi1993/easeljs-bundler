@@ -2,18 +2,18 @@
   "name": "easeljs-bundler",
   "version": "0.0.0",
   "description": "Bundler of EaselJS",
-  "main": "index.js",
+  "main": "lib/requires.js",
   "scripts": {
-    "start": "node .",
-    "debug": "nodemon ."
+    "test": "node test"
   },
   "author": "George Chung <Gerhut@GMail.com>",
   "license": "MIT",
   "dependencies": {
-    "connect": "^3.4.0",
-    "grunt": "^0.4.5"
+    "glob": "^5.0.15",
+    "uglify-js": "^2.5.0",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
-    "nodemon": "^1.7.3"
+    "jscs": "^2.3.5"
   }
 }
