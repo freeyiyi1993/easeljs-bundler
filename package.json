@@ -2,7 +2,7 @@
   "name": "easeljs-bundler",
   "version": "0.0.0",
   "description": "Bundler of EaselJS",
-  "main": "lib/requires.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "node test"
   },
